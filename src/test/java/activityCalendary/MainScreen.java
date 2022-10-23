@@ -13,7 +13,7 @@ public class MainScreen {
     public TextBox toDay = new TextBox(By.xpath("//android.widget.TextView[@resource-id='txttoday']"));
     public TextBox dayCalendary = new TextBox(By.xpath("//android.view.View[@resource-id='desc']"));
     //para hacer el  Assert en la creacion de enventos
-    public TextBox newDateSelect = new TextBox(By.xpath("//android.widget.LinearLayout[1]/android.webkit.WebView/android.webkit.WebView/android.view.View[2]/android.widget.TextView"));
+    public TextBox newDateSelect = new TextBox(By.xpath("//android.webkit.WebView/android.webkit.WebView/android.view.View[2]"));
     public Button dayBefore= new Button(By.xpath("//android.widget.TextView[@index='41']"));
 
     public MainScreen(){
